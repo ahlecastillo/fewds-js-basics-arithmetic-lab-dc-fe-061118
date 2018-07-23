@@ -12,4 +12,4 @@ const ageIsValid = Number.isInteger();
 
 var randomNumber = Math.random(0,20);
 var randomInteger = Math.floor(randomNumber);
-var randomUserID = Math.floor(randomInterger() * 20) + 1;
+var randomUserID = Math.floor(randomInterger() * ) + 1;
