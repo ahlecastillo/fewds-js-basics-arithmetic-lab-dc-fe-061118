@@ -12,10 +12,8 @@ const ageIsValid = Number.isInteger();
 
 var randomNumber = Math.random(0,20);
 var randomInteger = Math.floor(randomNumber);
-var randomUserID = randomInteger
+var randomUserID = Number.isInteger(randomUserID)
 
-
-expect(Number.isInteger(randomUserID)).to.be.true;
 
       expect(randomUserID).to.be.at.least(1000000001).and.at.most(1000000020);
     });
